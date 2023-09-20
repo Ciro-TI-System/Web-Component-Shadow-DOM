@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTAL DE NOTÍCIAS GALÁCTICA</title>
+    <link rel="stylesheet" href="styles/card.css" />
+    <script src="src/Components/CardNews.js" defer></script>
+    <script src="src/Components/TituloDinamico.js" defer></script>
+    <script src="desafio-01/MeuComponent.js" defer></script>
+  </head>
+  <body>
+    <div class="app-root">
+      <card-news
+        autor="Ciro Batista"
+        title="Darth Vader contrata"
+        link-url="https://pt.wikipedia.org/wiki/Darth_Vader"
+        photo="assets/asset-vader.png"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes"
+      ></card-news>
+
+      <card-news
+        autor="Ciro Batista"
+        title="Yoda convence república a utilizar components"
+        link-url="https://pt.wikipedia.org/wiki/Yoda"
+        photo="https://i.pinimg.com/736x/0d/9e/6b/0d9e6b830642bb88c37f2decc146bbaf.jpg"
+        content="Yoda se pronuncia e choca a republica."
+      ></card-news>
+
+      <card-news></card-news>
+
+      <titulo-dinamico titulo="Título Dinâmico!"> </titulo-dinamico>
+
+      <titulo-dinamico titulo="Título Dinâmico Diferente!"></titulo-dinamico>
+
+      <meu-componente></meu-componente>
+    </div>
+  </body>
+</html>
